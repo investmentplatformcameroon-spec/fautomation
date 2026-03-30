@@ -2,9 +2,9 @@
   "name": "my-scraper",
   "version": "1.0.0",
   "dependencies": {
+    "puppeteer": "^24.0.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
-    "puppeteer-core": "^21.0.0",
     "@upstash/redis": "^1.28.0"
   }
 }
