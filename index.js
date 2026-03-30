@@ -168,7 +168,7 @@ let accountCounter = 0;
     puppeteer.use(StealthPlugin());
           const browser = await puppeteer.launch({
           headless: false,
-          executablePath,
+          executablePath: "/usr/bin/chromium",
           defaultViewport: null,
           permissions: ['geolocation'],
           args: [
