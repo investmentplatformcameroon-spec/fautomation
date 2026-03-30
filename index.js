@@ -538,7 +538,7 @@ async function worker(id) {
   }
 }
 
-const WORKERS = 15;
+const WORKERS = 5;
 
 (async () => {
   await Promise.all(
