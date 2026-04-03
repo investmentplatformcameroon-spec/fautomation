@@ -9,7 +9,7 @@ const StealthPlugin = require("puppeteer-extra-plugin-stealth");
 const { Redis } = require('@upstash/redis');
 const { execSync, spawn } = require("child_process");
 const net = require('net');
-//test3
+//test4
 
 async function startTor() {
   try {
